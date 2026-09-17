@@ -21,6 +21,7 @@ if (age == 34) {
     console.log(culprit);
 }
 
+
 let culprit = "Bro Warner";
 console.log(culprit);
 
