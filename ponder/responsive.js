@@ -12,7 +12,7 @@ menuButton.addEventListener("click", function (event) {
     //     nav.style.display = '';
     // }
 
-    // ternary operator: Question -> if yes, do "" : if no, do "";
+    // ternary operator: Question -> if yes, do __ : if no, do __;
     nav.style.display = nav.style.display === '' ? "flex" : '';
 
     // 4. Toggle X animation for the menu button
