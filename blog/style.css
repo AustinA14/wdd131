@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: grid;
+    gap: 25px;
+}
+
+header {
+    border-bottom: 3px solid orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    border-top: 3px solid orange;
+    display: flex;
+    column-gap: 10px;
+    justify-content: right;
+}
+
+nav a {
+    color: maroon;
+    text-decoration: none;
+}
+
+#content {
+    display: grid;
+}
+
+.book {
+    border-top: 3px solid orange;
+    padding: 25px;
+    max-width: 700px;
+    margin: 20px auto;
+    display: grid;
+}
+
+.book-details {
+    text-align: right;
+}
+
+h2 {
+    color: maroon;
+    text-align: center;
+}
+
+.book-img {
+    justify-self: center;
+}
+
+.book-description {
+    text-align: left;
+}
+
+footer {
+    border-top: 3px solid orange;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .book {
+        grid-template-columns: 1fr 2fr;
+        border-top: none;
+        margin: 20px auto;
+        max-width: 80%;
+    }
+    .book-img {
+        grid-column: 2/3;
+    }
+    .book-details {
+        border-right: 3px solid orange;
+        grid-row: 1/8;
+        padding-right: 15px;
+    }
+    .book-description {
+        padding: 15px;
+    }
+}
