@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link href="style.css" rel="stylesheet">
+    <script src="blog.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,7 +16,13 @@
             <a href="#">Search</a>
         </nav>
     </header>
-    <main id="content">
+
+    <main id="main-content" role="main">
+        <section id="article-list" aria-label="Book Recommendations">
+        </section>
+    </main>
+          
+    <!-- <main id="content">
         <article class="book">
             <div class="book-details">
                 <p>July 5, 2022</p>
@@ -27,7 +34,7 @@
             <img class="book-img" src="Magkycover2.jpg" alt="Magyk Book Cover">
             <p class="book-description">If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.</p>
         </article>
-    </main>
+    </main> -->
     <footer>
         <p>Austin Ashcraft</p>
     </footer>

@@ -41,8 +41,8 @@ const movies = [
         stars: "⭐⭐⭐⭐"
       }
     ];
-    
-let body = document.querySelector('body');
+
+let main = document.querySelector('main');
 
 movies.forEach((movie) => {
     let movieDiv = `
@@ -56,5 +56,5 @@ movies.forEach((movie) => {
         <p id='desc'>${movie.description}</p>
     </article>
     `;
-    body.innerHTML += movieDiv;
+    main.innerHTML += movieDiv;
 });
