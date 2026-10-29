@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Playground</title>
+</head>
+<body>
+    <!-- types of inputs in forms -->
+    <form>
+        <label for="ssn">Enter your social security number</label>
+
+        <!-- You don't need to do "required="true", you can simply type required." -->
+        <input type="text" id="ssn" name="ssn" placeholder="123-45-6789" required maxlength="9" minlength="9">
+        
+        <!-- name="" pops up in the search bar under querys after the ? -->
+        <input type="search" name="search">
+
+        <!-- Password type hides the characters. Javascript can make the eye to view the text.-->
+        <input type="password" name="password" required>
+
+        <input type="tel">
+
+        <input type="color">
+
+        <input type="submit">
+
+        <!-- pattern=".{8,}" title="must contain at least 8 characters"
+         regex pattern is useful for requiring certain attributes of an input. -->
+    </form>
+</body>
+</html>
