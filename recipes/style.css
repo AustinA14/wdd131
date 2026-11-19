@@ -81,7 +81,7 @@ h1, h2 {
     padding: 4px;
     border: 0.5px solid gray;
     border-radius: 2px;
-    width: 45px;
+    width: fit-content;
     margin-bottom: 7px;
 }
 .recipe-title {
@@ -103,6 +103,12 @@ footer {
 .social img {
     width: 30px;
     margin-bottom: 10px;
+}
+#searchButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 @media (min-width: 600px) {
